@@ -1,0 +1,171 @@
+/*BODY*/
+
+body {
+	background-color:#FFF;
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+	color:#3E404B;
+}
+
+/*NAV BAR*/
+
+#nav {
+	background-color:#2A3F4C;
+	color:#fff;
+	opacity:0.7;
+	position:fixed;
+	padding-top:1%;
+	width:100%;
+	height:5%;
+	z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#nav .text {
+	text-align:center;
+}
+
+#nav .text a {
+	padding-left:4%;
+	padding-right:4%;
+	text-decoration:none;
+	color:#fff;
+}
+
+#nav .text a:hover {
+	color:fff;
+};
+
+hr {
+	opacity:0.7;
+}
+
+/*GENERAL CONTENT*/
+
+#object {
+	visibility: hidden;
+}
+
+#content {
+	padding-top:13%;
+}
+
+.tagline {
+	text-align:center;
+	font-size:35px;
+	padding-bottom:5%;
+	color:#fff;
+}
+
+.down-arrow {
+	padding-top:5%;
+	opacity:0.7;
+}
+
+/* Pulse */
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pulse:hover, .pulse:focus, .pulse:active {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+/*ABOUT*/
+
+.blurb {
+	text-align:center;
+	font-size:35px;
+	padding-bottom:7%;
+}
+
+.pillars {
+	text-align:center;
+	font-size:35px;
+	padding-top:4%;
+	padding-bottom:7%;
+}
+
+#icon img {
+	padding-right:2%;
+}
+
+/*CONTACT*/
+.contact-title {
+	text-align:center;
+	font-size:35px;
+	padding-bottom:7%;
+}
+
+/*SOCIAL MEDIA*/
+footer {
+	padding-top:10px;
+	height:70px;
+}
+
+.social-media {
+	text-align:center;
+	font-size:35px;
+	padding-top:4%;
+	padding-bottom:7%;
+}
+
+/*FOOTER*/
+#footer-logo {
+	float:left;
+	padding-left:5px;
+}
+
+
+.footer-links {
+	float:right;
+	color:#3E404B;
+	width:200px;
+}
+
+.footer-links a {
+	text-decoration:none;
+	color:#3E404B;
+	padding-right:2%;
+}
+
+.footer-links a:hover {
+	color:#3E404B;
+}
+
