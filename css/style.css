@@ -28,8 +28,8 @@ body {
 }
 
 #nav .text a {
-	padding-left:4%;
-	padding-right:4%;
+	padding-left:3%;
+	padding-right:3%;
 	text-decoration:none;
 	color:#fff;
 }
@@ -133,11 +133,24 @@ hr {
 	padding-bottom:7%;
 }
 
+/**TEAM*/
+.team-content {
+	text-align:center;
+	font-size:35px;
+	padding-top:4%;
+}
+
+.team-content img {
+	padding-left:4%;
+	padding-right:4%;
+	padding-bottom:3%;
+}
+
 /*SOCIAL MEDIA*/
 footer {
 	padding-top:10px;
 	height:70px;
-}
+} 
 
 .social-media {
 	text-align:center;
@@ -149,14 +162,14 @@ footer {
 /*FOOTER*/
 #footer-logo {
 	float:left;
-	padding-left:5px;
+	padding-left:1%;
 }
 
 
 .footer-links {
 	float:right;
 	color:#3E404B;
-	width:200px;
+	width:275px;
 }
 
 .footer-links a {
